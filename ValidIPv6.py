@@ -1,7 +1,7 @@
 def valid(x):
     v = 'ABCDEFabcdef0123456789'
     n = x.split(':')
-    if len(n)>8:
+    if len(n)!=8:
         return False
     for i in n:
         if len(i)>4:
